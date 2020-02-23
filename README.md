@@ -1,6 +1,6 @@
 # v2ray-rules
 
-这是一个Fork自https://github.com/Loyalsoldier/v2ray-rules-dat的项目。在原项目基础上添加了由Systemd实现的定时更新功能，并且去掉了去广告功能（本人认为这种功能更适合由浏览器插件来进行）。
+这是一个Fork自 [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) 的项目。在原项目基础上添加了由Systemd实现的定时更新功能，并且去掉了去广告功能（本人认为这种功能更适合由浏览器插件来进行）。
 
 经测试直接Fork会影响Github Actions运作，故直接新建了一个项目。
 
