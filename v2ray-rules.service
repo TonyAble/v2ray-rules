@@ -1,0 +1,10 @@
+[Unit]
+Description=v2ray-rules
+
+[Service]
+User=root
+ExecStart=wget https://github.com/TonyAble/v2ray-rules/releases/latest/download/geoip.dat -O /usr/bin/v2ray/geoip.dat
+ExecStartPost=wget https://github.com/Tonyable/v2ray-rules/releases/latest/download/geosite.dat -O /usr/bin/v2ray/geosite.dat
+
+[Install]
+WantedBy=basic.target

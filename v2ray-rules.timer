@@ -1,0 +1,9 @@
+[Unit]
+Description=Runs v2ray-rules sync every day
+[Timer]
+OnBootSec=1h
+OnCalendar=*-*-* 12:00:00
+Unit=v2ray-rules.service
+Persistent=true
+[Install]
+WantedBy=basic.target
