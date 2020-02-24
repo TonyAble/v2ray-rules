@@ -1,5 +1,7 @@
 [Unit]
 Description=v2ray-rules
+After=network.target
+Wants=network.target
 
 [Service]
 User=root
@@ -7,4 +9,4 @@ ExecStart=wget https://github.com/TonyAble/v2ray-rules/releases/latest/download/
 ExecStartPost=wget https://github.com/Tonyable/v2ray-rules/releases/latest/download/geosite.dat -O /usr/bin/v2ray/geosite.dat
 
 [Install]
-WantedBy=basic.target
+WantedBy=multi-user.target
