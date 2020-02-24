@@ -39,7 +39,6 @@ git clone https://github.com/TonyAble/v2ray-rules.git && cd v2ray-rules
 sudo cp v2ray-rules.* /usr/lib/systemd/system/
 sudo systemctl enable v2ray-rules.timer
 sudo systemctl start v2ray-rules.timer
-sudo systemctl enable v2ray-rules.service
 sudo systemctl start v2ray-rules.service
 ```
 
