@@ -5,3 +5,6 @@ ttvnw.net
 jtvnw.net
 flathub.org
 macupdate.com
+gitlab-static.net
+gitlab.com
+cdn.bizible.com
