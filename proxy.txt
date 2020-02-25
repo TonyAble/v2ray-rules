@@ -3,3 +3,5 @@ ttvnw.net
 twitchcdn.net
 ttvnw.net
 jtvnw.net
+flathub.org
+macupdate.com
