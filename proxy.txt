@@ -7,5 +7,7 @@ flathub.org
 macupdate.com
 gitlab-static.net
 gitlab.com
+swiftypecdn.com
+fontawesome.com
 cdn.bizible.com
 fireside.fm
