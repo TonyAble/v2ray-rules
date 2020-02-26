@@ -8,3 +8,4 @@ macupdate.com
 gitlab-static.net
 gitlab.com
 cdn.bizible.com
+fireside.fm
