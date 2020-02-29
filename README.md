@@ -32,16 +32,15 @@
 
 ### 如何使用：
 
-* Linux
+~~* Linux~~ 由于下载时会遇到撞墙问题，请暂时不要使用以下方法，执行手动替换。
 
-```shel
+```shell
 git clone https://github.com/TonyAble/v2ray-rules.git && cd v2ray-rules
 sudo cp v2ray-rules.* /usr/lib/systemd/system/
 sudo systemctl enable v2ray-rules.timer
 sudo systemctl start v2ray-rules.timer
 sudo systemctl start v2ray-rules.service
 ```
-
 * Windows
   * 直接替换dat文件
   * 自动化脚本待开发
